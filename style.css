@@ -42,7 +42,7 @@ header{
     height: 44px;
     font-size: 16px;
     text-align: center;
-   transition: width 5s;
+    transition: width 5s;
     
 }
 .header-button-box:hover{
@@ -98,3 +98,36 @@ header{
 }
 
 
+/*footer*/
+.footer-box{
+    padding-left: 475px;
+    margin-top: 100px;
+    padding-right: 481px;
+    display: flex;
+ flex-direction: column;
+ justify-content: center;
+align-items: center;
+margin-bottom: 63px;
+   
+}
+.footer-part img{
+    width: 483.87px;
+   height: 110px;
+   padding-left: 25px;
+  }
+
+  .footer-part-tittle .icon{
+      padding-left: 170px;
+   font-size:25px;
+  }
+ .icon .filled{
+     background-color: #969BAB;
+     border-radius: 15px;
+     padding: 4px;
+ }
+.footer-tittle{
+     padding-left: 130px;
+     font-size: 18px;
+     text-align: center;
+
+ }
