@@ -98,6 +98,46 @@ header{
 }
 
 
+/*extra part*/
+.match-update{
+   display:flex;
+}
+.next-match{
+    text-align: center;
+    font-size: 25px;
+    color: #FFFFFF;
+    background-color: black;
+}
+.next-match .fa-clock.fill{
+    font-size: 80px;
+}
+
+.last-match{
+    text-align: center;
+    font-size: 25px;
+    color: #FFFFFF;
+    background-color: black;
+}
+.last-match .fa-clock.fill{
+    font-size: 80px;
+}
+
+.match-pic-next img{
+    width: 500px;
+height: 427px;
+}
+.match-pic-last img{
+    width: 500px;
+height: 427px;
+}
+.fa-arrows-alt-h.arrow-extra{
+    color: gray;
+    font-size: 100px;
+    margin-top:250px;
+    
+    
+}
+
 /*footer*/
 .footer-box{
     padding-left: 475px;
